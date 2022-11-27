@@ -1,21 +1,21 @@
 <template>
   <div>
-    <HeadePage/>
-    <MainPage/>
-    <FooterPage/>
+    <HeaderPage />
+    <MainPage />
+    <FooterPage />
   </div>
 </template>
 
 <script>
-
-import HeadePage from '@/components/HeadePage.vue';
+import HeaderPage from '@/components/HeaderPage.vue';
 
 import MainPage from '@/components/MainPage.vue';
+
 import FooterPage from '@/components/FooterPage.vue';
 
 export default {
   components: {
-    HeadePage,
+    HeaderPage,
     MainPage,
     FooterPage,
   },
@@ -23,9 +23,10 @@ export default {
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto;
+  }
 </style>
